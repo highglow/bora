@@ -1,0 +1,13 @@
+@startuml
+!include <c4/C4_Context>
+
+LAYOUT_TOP_DOWN()
+
+Person(user, "User", "Storm chaser")
+Enterprise_Boundary(c0, "bora") {
+    System(bora, "Bora", "Wind information system")
+}
+System_Ext(data_source, "Weather Data Source", "Beareau of Meteorology\nPorts\nOther")
+Rel(user, bora, "gets wind info from")
+Rel(bora, data_source, "farms weather data from")
+@enduml
