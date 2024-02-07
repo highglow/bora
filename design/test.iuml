@@ -1,0 +1,12 @@
+@startuml
+
+Actor Sam
+Database Magi
+
+Sam->Bob
+Bob->Tree
+Tree->Magi
+Magi-->Tree:mango
+Tree--->Bob
+Bob-->Sam:All the fruit
+@enduml

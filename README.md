@@ -5,12 +5,19 @@
 - Forecasted weather
 - Graphical map and chart views
 
+*test uml* 
+![my-test-diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/highglow/bora/master/design/test.iuml)
 
 
-![your-hello-puml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/highglow/bora/master/design/01-Context.puml)
 
 ## Design
+
 ### Context
+![01-context-diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/highglow/bora/master/design/01-Context.iuml)
+
+### Container
+![02-container-diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/highglow/bora/master/design/02-Container.iuml)
+
 
 
 
