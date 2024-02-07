@@ -5,29 +5,14 @@
 - Forecasted weather
 - Graphical map and chart views
 
-```plantuml
-A -> B: abc
-```
+
+
+![your-hello-puml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/highglow/bora/master/design/01-Context.puml)
 
 ## Design
 ### Context
 
-Regular **Markdown** here.
 
-<!--
-@startuml firstDiagram
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-	
-@enduml
--->
-
-![](firstDiagram.svg)
-
-Some more markdown.
-
-![](firstDiagram.svg)
 
 #### Graphical Weather Viewer
 Gain instant insights with beautifully crafted weather visualizations, encompassing wind speed and direction, temperature, precipitation, and more.
